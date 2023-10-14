@@ -1,0 +1,11 @@
+Question1 - Explain the difference between the = operator and the == operator in Python.
+The = is a simple assignment operator
+The “==” operator is known as the equality operator
+
+
+Question2 - What does the ** operator do in Python, and how is it used?
+Power: Returns first raised to power second
+
+
+Question3 - What does the ^ operator do in Python, and in what context is it commonly used?
+its bitwise xor operator. its operate bit by bit
