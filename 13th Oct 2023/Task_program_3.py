@@ -7,5 +7,5 @@ b = int(input("Enter second number"))
 #Third number
 c = int(input("Enter third number"))
 
-max_val = a if (a>b and a>c) else b if(a<b and b>c) else c
+max_val = a if (a>b and a>c) else b if(b>c) else c
 print(max_val)

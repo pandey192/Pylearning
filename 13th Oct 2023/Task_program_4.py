@@ -2,7 +2,7 @@
 
 #Take a Number
 
-number = int(input("Enter a number"))
+number = float(input("Enter a number"))
 square_of_number = (number**2)
 cube_of_number = (number**3)
 
