@@ -3,5 +3,5 @@
 output = lambda value:value*2
 print(output(2))
 
-sayHello = lambda name:("your name is",name)
-print(sayHello("pramod"))
+sayHello = lambda name:print("your name is",name)
+(sayHello("pramod"))
