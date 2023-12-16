@@ -1,0 +1,47 @@
+{
+  "name": "test_create_booking_positive",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "df34fb1e-f868-4350-9e52-1c9f296a0dfc-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1702646563442,
+  "stop": 1702646564824,
+  "uuid": "7a35e465-be40-4bcc-a6b1-54f2b77eab96",
+  "historyId": "c38162dff9f3f701278abbcaed5eb493",
+  "testCaseId": "c38162dff9f3f701278abbcaed5eb493",
+  "fullName": "TestLaab_API_001#test_create_booking_positive",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "negative"
+    },
+    {
+      "name": "suite",
+      "value": "TestLaab_API_001"
+    },
+    {
+      "name": "host",
+      "value": "Apples-MacBook-Air.local"
+    },
+    {
+      "name": "thread",
+      "value": "36709-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "TestLaab_API_001"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "test_create_booking_positive",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert 200 == 500\n +  where 200 = <Response [200]>.status_code",
+    "trace": "@pytest.mark.negative\n    def test_create_booking_positive():\n        print(\"create Booking testcase\")\n        URL = \"https://restful-booker.herokuapp.com/booking\"\n        headers = {}\n        json_payload = {\n            \"firstname\": \"Jim\",\n            \"lastname\": \"Brown\",\n            \"totalprice\": 111,\n            \"depositpaid\": True,\n            \"bookingdates\": {\n                \"checkin\": \"2018-01-01\",\n                \"checkout\": \"2019-01-01\"\n            },\n            \"additionalneeds\": \"Breakfast\"\n        }\n    \n        response = requests.post(url=URL, headers=headers, json=json_payload)\n    \n    \n    # Assertions\n    \n>       assert response.status_code == 500\nE       assert 200 == 500\nE        +  where 200 = <Response [200]>.status_code\n\nTestLaab_API_001.py:70: AssertionError"
+  },
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "6c74c36d-f36a-4332-8963-9154e685e2b0-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1702646170779,
+  "stop": 1702646172633,
+  "uuid": "2f77bc6c-e801-4637-ac2a-3c9229f16f3b",
+  "historyId": "c38162dff9f3f701278abbcaed5eb493",
+  "testCaseId": "c38162dff9f3f701278abbcaed5eb493",
+  "fullName": "TestLaab_API_001#test_create_booking_positive",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "negative"
+    },
+    {
+      "name": "suite",
+      "value": "TestLaab_API_001"
+    },
+    {
+      "name": "host",
+      "value": "Apples-MacBook-Air.local"
+    },
+    {
+      "name": "thread",
+      "value": "36621-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "TestLaab_API_001"
+    }
+  ]
+}
